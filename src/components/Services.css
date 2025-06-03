@@ -1,0 +1,115 @@
+.services .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topicc{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;}
+.services .boxes .box{
+    margin: 20px 0;
+    width: calc(100%/ 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.12);
+    cursor: default;
+    color: white;
+    transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+    background: #b74b4b;
+    color: #fff;
+}
+.services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #b74b4b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+    background-color: #fff;
+    color: #b74b4b;
+}
+
+.box{
+    background-color: rgb(24, 1, 1);
+}
+/*text hover in service center omitted*/
+.contact{
+    background: black;
+}
+.contact, .content{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact, .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+}
+footer{
+    background: #b74b4b;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .text span a{
+    font-weight: 500;
+    color: #fff;
+}
+footer .text span a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    .about .about-details{
+        justify-content: center;
+        flex-direction: column;
+    }
+.about .about-details .left{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about .about-details .right{
+    width: 90%;
+    margin: 4px 0px;
+}
+.services .content .boxes{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+   
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+}
+.content .boxes .box:hover{
+    align-items: center;
+}
+.services .boxes .box{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+
+}

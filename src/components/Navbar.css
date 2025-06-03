@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: red;
+    height: 120px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #b74b4b;
+}
+.header{
+    position: fixed; top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    /*background: rgba(0, 0, 0, .1);*/
+    /*backdrop-filter: blur(50px);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+    margin-top: -5px; 
+    padding-left: 10px; 
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+}
+.logo{
+    font-size: 4rem;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+    padding-left: -30px;
+    left: 0;
+}
+
+.navbar a{
+    font-size: 2rem;
+    color: black;
+    -webkit-text-stroke: .7px white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4rem;
+    padding-right: 20px;
+    transition: all 0.4s ease;
+    
+}
+.navbar a:hover{
+    color: red;
+    font-size: 3rem;
+    transition: all 0.4s ease;
+}
+.active{
+    color: red; 
+}
+
+@media (max-width:992px) {
+    .header {
+        padding: 0rem 2%;
+    }
+}
+@media (max-width:768px) {
+   
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(50px);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+   
+}
+    

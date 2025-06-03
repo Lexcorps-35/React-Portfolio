@@ -1,0 +1,135 @@
+section.content{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+.about, .about-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+section .title span{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}
+button{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+.about .about-details .left{
+    width: 45%;
+}
+.about .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.about-details .right{
+    width: 55%;
+}
+section .topic{
+    color: rgb(218, 49, 49);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about-details .right p{
+    text-align: justify;
+    color: white;
+    font-size: 1.6rem;
+}
+section .button{
+    margin: 16px 0;
+}
+.skills{
+    background: black;
+}
+.skills .content{
+    padding: 40px 0;
+}
+.skills .skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-details .text{
+    width: 50%;
+}
+.skills-details p{
+    color: white;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.skills .skills-details .Experience{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.skills-details .Experience .num{
+    color: white;
+    font-size: 80px;
+}
+.skills-details .Experience .exp{
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+.skills-details .boxes{
+    width: 45%;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-details .box{
+    width: calc(100%/ 2- 20px);
+    margin: 20px 0;
+}
+.skills-details .boxes .topic{
+    font-size: 20px;
+    color: #b74b4b;
+}
+.skills-details .boxes .per{
+    font-size: 60px;
+    color: #b74b4b;
+}
+@media(max-width:768px) {
+    .skills .skills-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills .text{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 1.4rem;
+    }
+
+}
