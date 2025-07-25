@@ -1,0 +1,111 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@layer base {
+  html {
+    @apply transition-colors duration-300;
+  }
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+    overflow-x: hidden;
+  }
+}
+ 
+.fry{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+ font-style: normal;
+}
+.ty{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+    .hed {
+      font-family: "Noto Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+     .try {
+       font-family: "Montserrat", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 500;
+       font-style: normal;
+     }
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  background-color: black;
+  border-radius: 4rem;
+  font-size: 1rem;
+  color: #ef2929;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  border: 2px solid #ef2929;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale3d(1.03);
+  background-color: #ef2929;
+  color: black;
+  box-shadow: 0 0 25px #b74b4b;
+}
+ @keyframes moveBackground {
+   0% {
+     background-position: 0 0;
+   }
+
+   100% {
+     background-position: 40px 40px;
+   }
+ }
+
+ .animate-bg {
+   animation: moveBackground 10s linear infinite;
+ }
+ .social-icons a {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 2.5rem;
+   height: 2.5rem;
+   background-color: transparent;
+   border: 0.1rem solid #ef2929;
+   font-size: 2rem;
+   border-radius: 50%;
+   transition: 0.s ease;
+ }
+
+ .social-icons a:hover {
+   color: black;
+   transform: scale(1.3) translateY(-5px);
+   background-color: #ef2929;
+   box-shadow: 0 0 25 #ef2929;
+ }
+ .active-link {
+   color: #ef4444 !important;
+ }
+
+
+ @keyframes slow-bounce {
+
+   0%,
+   100% {
+     transform: translateY(-15%);
+     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+   }
+
+   50% {
+     transform: translateY(0);
+     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+   }
+ }
+
+ .slow-bounce {
+   animation: slow-bounce 2.5s infinite;
+ }
