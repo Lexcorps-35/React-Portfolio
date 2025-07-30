@@ -13,7 +13,7 @@ const About = () => {
  <div className="mx-auto  md:grid md:grid-cols-2 md:items-center md:gap-5 "> 
   
         <div className="mt-10 md:mt-0 "> 
-            <img src="src/assets/my photo3.jpg" alt="About Image" className="rounded-2xl w-[25rem] h-[25rem] mx-auto object-cover shadow-2xl mb-5"/> 
+            <img src="/my-photo3.jpg" alt="About Image" className="rounded-2xl w-[25rem] h-[25rem] mx-auto object-cover shadow-2xl mb-5"/> 
         </div> 
 
 

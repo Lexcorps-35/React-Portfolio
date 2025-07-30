@@ -13,8 +13,7 @@ const Home = () => {
         <div className="md:w-[40rem] md:h-[430px] w-[20rem] rounded-[70%] overflow-hidden shadow-[0_0_50px_#ff0000] mt-21 md:mb-6
         mx-auto md:mx-0 transition duration-500 ease-in-out transform 
              hover:scale-105 active:scale-95 cursor-pointer">
-          <img
-            src="src/assets/my photo4.jpg" // Replace with your image path
+          <img src="/my-photo4.jpg"
             alt="Alex"
             className="object-cover w-full h-full"
           />

@@ -111,7 +111,7 @@ const Contact = () => {
               </form>
                       </div>
                   </div>
-                  <img src="src/assets/emailsent.png" alt="" className="slow-bounce mt-[15rem] hidden md:flex"/>
+                  <img src="/email-sent.png" alt="" className="slow-bounce mt-[15rem] hidden md:flex"/>
               </div>
           </section>
           <Footer />

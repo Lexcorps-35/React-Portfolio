@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from "react-scroll";
-import { MdDarkMode } from "react-icons/md";
-import { MdOutlineLightMode } from "react-icons/md";
+import { MdDarkMode, MdOutlineLightMode } from "react-icons/md";
 import { RiMenu3Line } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import Home from './Home'
-import About from './About'
-import Skills from './Skills'
+import Home from './Home';
+import About from './About';
+import Skills from './Skills';
 import Services from './Services';
 import Contact from './Contact';
+
 
 const NavLinks = [
   {
@@ -78,7 +78,8 @@ const Navbar = () => {
       <section className=' dark:bg-black '>
         <nav className='flex justify-between fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-black/60 backdrop-blur-md shadow-md'>
           <div className='flex mt-3'>
-            <a href="#"><img src="src/assets/My-Logo.png" alt="" className="w-30 h-20 -mt-5 -ml-4" />
+            <a href="#">
+              <img src="/my-logo.png" alt="" className="w-30 h-20 -mt-5 -ml-4" />
           </a>
           <h1 className='-ml-10 text-4xl ty'>Lexcorps</h1>
           </div> 

@@ -15,7 +15,7 @@ const Footer = () => {
     
     
    <a href="#"> <div class="flex items-center">
-      <img src="src/assets/My-Logo.png" alt="Lexcorps Logo" class="h-16" />
+      <img src="/my-logo.png" alt="Lexcorps Logo" class="h-16" />
       <span class="text-4xl font-bold ty">Lexcorps</span>
     </div></a>
 
