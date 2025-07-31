@@ -109,9 +109,9 @@ const Navbar = () => {
             >
               {
                 theme === 'dark' ? (
-                  <MdDarkMode className='size-7 pb-1' />
+                  <MdDarkMode className='size-7 pb-1 hover:animate-spin' />
                 ):(
-                    <MdOutlineLightMode className='size-7 pb-1 text-yellow-500' />
+                    <MdOutlineLightMode className='size-7 pb-1 text-yellow-500 hover:animate-spin'  />
                   )
               } 
           </div>
@@ -133,11 +133,11 @@ const Navbar = () => {
   } md:hidden`}
 >
   <div className="p-6">
-    <a onClick={closeMenu} href="#" className="block py-3 border-b border-white/30">Home</a>
-    <a onClick={closeMenu} href="#" className="block py-3 border-b border-white/30">About</a>
-    <a onClick={closeMenu} href="#" className="block py-3 border-b border-white/30">Skills</a>
-    <a onClick={closeMenu} href="#" className="block py-3 border-b border-white/30">Services</a>
-    <a onClick={closeMenu} href="#" className="block py-3 border-b border-white/30">Contact</a>
+    <a onClick={closeMenu} href="#Home" className="block py-3 border-b border-white/30">Home</a>
+    <a onClick={closeMenu} href="#About" className="block py-3 border-b border-white/30">About</a>
+    <a onClick={closeMenu} href="#Skills" className="block py-3 border-b border-white/30">Skills</a>
+    <a onClick={closeMenu} href="#Services" className="block py-3 border-b border-white/30">Services</a>
+    <a onClick={closeMenu} href="#Contact" className="block py-3 border-b border-white/30">Contact</a>
   </div>
 </div>
        

@@ -34,24 +34,26 @@ const Home = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start mt-6 social-icons gap-5 ">
-            <a href="#" className=" ">
+            <a href="https://www.linkedin.com/in/ene-alexander-847b9033a/" >
               < FaLinkedin className="size-6 text-red-600 hover:text-black "/>
             </a>
-            <a href="#">
+            <a href="https://github.com/Lexcorps-35">
               <FaSquareGithub className="size-6 text-red-600 hover:text-black "/>
             </a>
-            <a href="#">
+            <a href="https://x.com/ENE589648356793?t=QzOgyuf0y4UG5Dn9Fk19SA&s=09">
               <FaSquareXTwitter className="size-6 text-red-600 hover:text-black "/>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/enealex3219?igsh=YzljYTk1ODg3Zg==">
               <FaInstagram className="size-6 text-red-600 hover:text-black "/>
             </a>
           </div>
 
           {/* Hire Me Button */}
-          <button className="btn mt-6 mb-6">
+          <a href="https://wa.me/qr/JTGFM5WOMDYXA1">
+            <button className="btn mt-6 mb-6">
             HIRE ME
           </button>
+            </a>
         </div>
       </div>
       

@@ -10,7 +10,7 @@ const Footer = () => {
     };
   return (
       <div>
-          <footer class="dark:bg-gray-900 dark:text-white py-6 px-4 mt-10">
+          <footer class="bg-gradient-to-b from-white to-blue-200 dark:bg-gray-900 dark:text-white py-6 px-4 mt-10">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-4">
     
     
