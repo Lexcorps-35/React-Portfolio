@@ -69,17 +69,17 @@ const Navbar = () => {
   };
 
   return (
-    <div className="overflow-x-hiddenl">
+    <div>
       <section className=" dark:bg-black ">
         <nav
-          className="flex justify-between fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-black/60 backdrop-blur-md shadow-md"
+          className="flex items-center justify-between fixed w-full max-w-screen z-50 bg-white/80 dark:bg-black/60 backdrop-blur-md shadow-md"
           data-aos="fade-down"
         >
           <div className="flex mt-3">
             <a href="#">
               <img
                 src="/my-logo.png"
-                alt=""
+                alt="Logo Image"
                 className="w-30 h-20 -mt-5 -ml-4"
               />
             </a>
@@ -91,14 +91,15 @@ const Navbar = () => {
               <Link
                 key={nav.id}
                 to={nav.link}
-                spy={true} // watches scroll position
-                smooth={true} // smooth scroll
-                offset={-70} // offset for fixed nav
+                spy={true}
+                smooth={true}
+                offset={-70}
                 duration={500}
                 activeClass="active-link"
-                className="cursor-pointer text-gray-800 dark:text-gray-300 transition-colors hover:text-red-600"
+                className="group relative inline-block cursor-pointer text-gray-800 dark:text-gray-300 transition-colors hover:text-red-600"
               >
                 {nav.title}
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
           </div>
