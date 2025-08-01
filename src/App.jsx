@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <Home />
       <About />
