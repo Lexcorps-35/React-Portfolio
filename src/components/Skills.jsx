@@ -79,13 +79,13 @@ const Skills = () => {
           </div>
 
           <div
-            className="grid grid-cols-2 sm:grid-cols-2 gap-6 text-center items-center justify-items-center"
+            className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6 text-center items-center justify-items-center"
             data-aos="fade-up"
           >
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center  bg-gray-300 dark:bg-[#1f2937] rounded-xl px-4 py-5 w-45 shadow-xl dark:shadow-pink-400
+                className="flex flex-col items-center  bg-gray-300 dark:bg-[#1f2937] rounded-xl px-4 py-5 w-full shadow-xl dark:shadow-pink-400
     hover:scale-105 hover:shadow-[0_0_15px_#ff4d4d]
                  dark:hover:shadow-[0_0_20px_#ff4d4d]
                  transition duration-300 ease-in-out cursor-pointer"

@@ -1,7 +1,4 @@
 import React from "react";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaSquareGithub } from "react-icons/fa6";
 import TypeWriter from "./TypeWriter";
 
 const Home = () => {
@@ -48,44 +45,10 @@ const Home = () => {
             and visually polished digital experiences.
           </p>
 
-          {/* Social Icons */}
-          <div className="flex justify-center md:justify-start mt-6 gap-5">
-            <a
-              href="https://www.linkedin.com/in/ene-alexander-847b9033a/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#db3434] inline-flex justify-center items-center w-10 h-10 border-2 border-[#db3434] text-[2rem] rounded-full transition-transform  duration-300 ease-in-out hover:bg-[#ef2929] hover:text-black hover:scale-[1.3] hover:-translate-y-[5px] hover:shadow-[0_0_25px_#ef2929]"
-            >
-              <FaLinkedin className="size-6" />
-            </a>
-            <a
-              href="https://github.com/Lexcorps-35"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#db3434] inline-flex justify-center items-center w-10 h-10 border-2 border-[#db3434] text-[2rem] rounded-full transition-transform  duration-300 ease-in-out hover:bg-[#ef2929] hover:text-black hover:scale-[1.3] hover:-translate-y-[5px] hover:shadow-[0_0_25px_#ef2929]"
-            >
-              <FaSquareGithub className="size-6" />
-            </a>
-            <a
-              href="https://x.com/ENE589648356793?t=QzOgyuf0y4UG5Dn9Fk19SA&s=09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#db3434] inline-flex justify-center items-center w-10 h-10 border-2 border-[#db3434] text-[2rem] rounded-full transition-transform  duration-300 ease-in-out hover:bg-[#ef2929] hover:text-black hover:scale-[1.3] hover:-translate-y-[5px] hover:shadow-[0_0_25px_#ef2929]"
-            >
-              <FaSquareXTwitter className="size-6" />
-            </a>
-            <a
-              href="https://www.instagram.com/enealex3219?igsh=YzljYTk1ODg3Zg=="
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#db3434] inline-flex justify-center items-center w-10 h-10 border-2 border-[#db3434] text-[2rem] rounded-full transition-transform  duration-300 ease-in-out hover:bg-[#ef2929] hover:text-black hover:scale-[1.3] hover:-translate-y-[5px] hover:shadow-[0_0_25px_#ef2929]"
-            >
-              <FaInstagram className="size-6" />
-            </a>
-          </div>
+          
 
           {/* Hire Me Button */}
-          <a href="https://wa.me/qr/JTGFM5WOMDYXA1">
+          <a href="https://wa.me/09126667812?text=Hi+good+day+I+have+a+frontend+project+i+would+like+you+to+work+on">
             <button className="btn mt-6 mb-6">HIRE ME</button>
           </a>
         </div>
@@ -99,7 +62,7 @@ const Home = () => {
       </div>
 
       <div
-        className=" absolute mt-20 left-1/4 w-72 h-72 bg-blue-300 rounded-full
+        className=" absolute mt-20 md:left-1/4 left-1/5 w-72 h-72 bg-blue-300 rounded-full
           mix-blend-multiply filter blur-3xl opacity-70 dark:opacity-30 dark:bg-blue-600"
       ></div>
 
