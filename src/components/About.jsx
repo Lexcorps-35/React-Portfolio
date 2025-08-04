@@ -47,6 +47,7 @@ const About = () => {
             developers to create responsive and visually appealing web
             applications.
             <br />
+            </p>
 
              {/* Social Icons */}
           <div className="flex justify-center md:justify-start mt-6 gap-5">
@@ -83,7 +84,6 @@ const About = () => {
               <FaInstagram className="size-6" />
             </a>
           </div>
-          </p>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start btn">
             <a className=" " href="public/Portfolio Resume.pdf" download>

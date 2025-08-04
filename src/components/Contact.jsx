@@ -10,7 +10,7 @@ const Contact = () => {
     message: "",
   });
 
-  const SERVICE_ID = "service_x6q5c7e";
+  const SERVICE_ID = "service_hw0y13m";
   const TEMPLATE_ID = "template_6vygyyn";
   const PUBLIC_KEY = "4KyUSZDM6ajVmuTqA";
 
