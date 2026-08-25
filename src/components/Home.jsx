@@ -10,15 +10,16 @@ const Home = () => {
       <div className="flex flex-col md:flex-row md:items-start justify-between  w-full">
         {/* Profile Image */}
         <div
-          className="md:w-[40rem] md:h-[430px] w-[20rem] rounded-[70%] overflow-hidden shadow-[0_0_50px_#ff0000] mt-21 md:mb-6
+          className="md:w-[40rem] md:h-[430px] w-[20rem] w-[20rem] h-[400px]
+    rounded-[70%] overflow-hidden shadow-[0_0_50px_#ff0000] mt-21 md:mb-6
         mx-auto md:mx-0 transition duration-500 ease-in-out transform 
              hover:scale-105 active:scale-95 cursor-pointer"
           data-aos="fade-right"
         >
           <img
-            src="/my-photo4.jpg"
+            src="/profile-photo.png"
             alt="Alex"
-            className="object-cover w-full h-full"
+            className="object-cover w-full object-cover object-top"
           />
         </div>
 

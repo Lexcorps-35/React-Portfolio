@@ -5,24 +5,25 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Agboedo Mart",
-      description: "A responsive React project showcasing my skills and work.",
-      image: "/Agbeoedo.png",
-      link: "https://agbedeo-farmart.vercel.app/",
+      title: "Swiftpay",
+      description: "Modern, responsive payment landing page with animations.",
+      image: "swiftpay.png",
+      link: "https://swift-pay-zeta.vercel.app/",
     },
     {
       id: 2,
-      title: "Landing Page",
-      description: "Modern, responsive product landing page with animations.",
-      image: "/landing-page.png",
-      link: "https://ntic-frontend-psi.vercel.app/",
+      title: "ElevenWells",
+      description:
+        "A company landing page website, built with React and Tailwind CSS, featuring a responsive design and smooth animations.",
+      image: "elevenwell.png",
+      link: "https://eleven-wells-nu.vercel.app/",
     },
     {
       id: 3,
-      title: "Phone Validator",
-      description: "An app that detects Nigerian Phone numbers smartly.",
-      image: "/validator-app.png",
-      link: "https://phone-validator-sigma.vercel.app/",
+      title: "Landing Page",
+      description: "A responsive React project showcasing my skills and work.",
+      image: "/Agbeoedo.png",
+      link: "https://agbedeo-farmart.vercel.app/",
     },
   ];
 

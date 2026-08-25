@@ -70,10 +70,10 @@ const Skills = () => {
 
             <div className="flex gap-4 items-center try">
               <p className="text-8xl font-bold bg-gradient-to-br from-gray-700 to-pink-500 bg-clip-text text-transparent">
-                8
+                1
               </p>
               <p className="text-xl font-semibold text-black dark:text-white">
-                Months Of <br /> Experience
+                Year Of <br /> Experience
               </p>
             </div>
           </div>
