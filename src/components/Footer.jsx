@@ -22,7 +22,7 @@ const Footer = () => {
    
     <div class="text-xl font-bold">
       &copy; 2025 <a href="#" class="hover:underline text-red-400 font-medium">LEXCORPS</a>. All rights reserved.
-      <div class="text-xs text-gray-400 mt-1">Crafted with 💼 passion & precision.</div>
+      <div class="text-xs text-gray-400 mt-1">Crafted with 💼 passion & precision</div>
     </div>
 
     
